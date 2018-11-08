@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+[class*="col-sm-6"] {
+    background-clip: padding-box;
+        border: 15px solid #c0c5ff;
+}
+[class*="col-sm-4"] {
+    background-clip: padding-box;
+        border: 15px solid #c0c5ff;
+}
+
+@font-face {
+    font-family: fuente1;
+    src: url("fuentes/Master of break.ttf") format("opentype");
+}
+h1{
+    font-family: 'Signika', sans-serif;
+}
+h3{
+    font-family: 'Signika', sans-serif;
+}
+p{
+    font-family: 'Raleway', sans-serif;
+}
+.big-font{
+    font-size: 700%; 
+}
+.fuente1{
+    font-family: fuente1, Helvetica, sans-serif;
+}
+.fuente2{
+    font-family: 'Raleway', sans-serif;
+}
+.fuente3{
+    font-family: 'Signika', sans-serif;
+}
+.bg-lilaclaro{
+    background: #a685cc;
+}
+.bg-lilaoscuro{
+    background: #633699; 
+}
+.bordelila{
+    border-bottom:3px solid  #633699; 
+}
+.bg-azulito{
+    background: #c0c5ff;
+}
+.bg-amarilloclaro{
+    background: #ffd780;
+}
+.bg-amarillooscuro{
+    background: #ccaf85;
+}
+img{
+    border-radius: 5px;
+}
+.contenedor{
+    border-radius: 5px;
+    padding: 5px;
+}
+.color{
+    width: 100%;
+    height: 170px;
+    border-radius: 5px; 
+}
+.bordecorrecto{
+    border-bottom: solid lightgreen 10px;
+}
+.bordeincorrecto{
+    border-bottom: solid crimson 10px;
+}
